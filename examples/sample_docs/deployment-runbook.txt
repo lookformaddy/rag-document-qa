@@ -1,0 +1,3 @@
+Deployment Runbook (fictional sample document)
+
+Deployments run every Tuesday and Thursday at 2:00 PM. Before deploying, the release manager verifies that all checks pass on the staging environment and that the rollback plan is documented. A deployment proceeds in three stages: first ten percent of traffic, then fifty percent, then full traffic, with a fifteen minute observation window between stages. If error rates rise above one percent during any stage, the deployment is rolled back automatically. After a successful deployment, the release manager posts a summary to the team channel and monitors dashboards for one hour.
